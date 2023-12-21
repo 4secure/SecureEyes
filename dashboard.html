@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Eyes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="relative bg-[#080e0f] flex justify-center min-h-screen h-[100%] text-white">
+            <div class="gradient wraper">
+                <div
+                    class=" pointer-events-none	 blur-2xl w-[300px] h-[300px] absolute opacity-[0.1] top-10 right-10 rounded-full bg-[#295066]">
+                </div>
+                <div
+                    class=" pointer-events-none	 blur-2xl w-[500px] h-[500px] absolute opacity-[0.1] top-[100px] left-[100px] rounded-full bg-[#295066]">
+                </div>
+            </div>
+            <div
+                class="Drawer transition-[1s] relative bg-[#191e1d] w-72 flex flex-col items-center p-5 gap-2  min-h-screen">
+                <img id="openImg" class="mb-5 mt-1" width="120" src="images/logo.png" alt="">
+                <img id="closeImg" class=" hidden mb-5 mt-1" width="50" src="images/logo icon.png" alt="">
+                <a id="linkBox" href=""
+                    class="tran py-3 px-8 text-left flex items-center gap-2 rounded-xl bg-blue-600 ">
+                    <img src="images/stars.svg" alt="">
+                    <h2 class="link">Geting Started</h2>
+                </a>
+                <div class="linkAll flex flex-col gap-2 items-start opacity-[0.8] mt-3">
+                    <a href="" class="ml-[-25px] flex gap-4  items-end leading-none my-3"><img width="25"
+                            src="images/dashboard.svg" alt="">
+                        <h2 class="link">Dashboard</h2>
+                    </a>
+                    <a href="" class="ml-[-25px] flex gap-4  items-end leading-none my-3"><img width="25"
+                            src="images/target.svg" alt="">
+                        <h2 class="link">Target</h2>
+                    </a>
+                    <a href="" class="ml-[-25px] flex gap-4  items-end leading-none my-3"><img width="25"
+                            src="images/scan.svg" alt="">
+                        <h2 class="link">Scans</h2>
+                    </a>
+                    <a href="" class="ml-[-25px] flex gap-4  items-end leading-none my-3"><img width="25"
+                            src="images/scan.svg" alt="">
+                        <h2 class="link">Reports</h2>
+                    </a>
+                    <a href="" class="ml-[-25px] flex gap-4   items-end leading-none my-3"><img width="25"
+                            src="images/reports.svg" alt="">
+                        <h2 class="link">Network</h2>
+                    </a>
+                    <a href="integrations.html" class="ml-[-25px] flex gap-4  items-end leading-none my-3"><img
+                            width="25" src="images/integration.svg" alt="">
+                        <h2 class="link">
+                            Integration
+                        </h2>
+                    </a>
+
+                    <div>
+                        <a class="ml-[-25px] flex gap-4  items-end leading-none my-3"><img width="25"
+                                src="images/acount.svg" alt="">
+                            <h2 class="link">Account</h2>
+                            <img width="10" class="link arrow cursor-pointer" src="images/arrow down.svg" alt="">
+                        </a>
+                        <div class="link ml-[-12px] mt-2  account-box overflow-hidden	">
+                            <a href="/setting.html" class="flex  mt-3 iterms-center gap-3">
+                                <img src="images/settings.svg" width="18" alt="">
+                                <h2 class="link font-light text-md">Settings</h2>
+                            </a>
+                            <a href="" class="flex mt-3 iterms-center gap-3">
+                                <img src="images/cash.svg" width="18" alt="">
+                                <h2 class="link font-light text-md">Billings</h2>
+                            </a>
+                            <a href="" class="flex mt-3 iterms-center gap-3">
+                                <img src="images/status.svg" width="18" alt="">
+                                <h2 class="link font-light text-md">System Status</h2>
+                            </a>
+                            <a href="" class="flex mt-3 iterms-center gap-3">
+                                <img src="images/help center.svg" width="18" alt="">
+                                <h2 class="link font-light text-md">Help Center</h2>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <a id="linkBox" class="flex items-center gap-3 bg-[#2b3130] py-3 rounded-xl px-14 absolute bottom-6"
+                    href="index.html"><img src="images/logout-1 1.svg" alt="">
+                    <h2 class="link">Log Out</h2>
+                </a>
+            </div>
+            <div class="main-box w-full h-full">
+                <div class="bg-[#191e1d] flex items-center justify-between p-10  gap-3 w-full h-[70px]">
+                    <div class="flex gap-5">
+                        <img id="drawer-btn" class=" cursor-pointer" width="15" src="images/back arrow.svg" alt="">
+                        <h2 class="font-semibold">Welcome Back, John Doe</h2>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <img width="18" src="images/search.svg" alt="">
+                        <img width="18" src="images/bell.svg" alt="">
+                        <h1 class="opacity-[0.4] text-2xl font-thin">|</h1>
+                        <img width="30" src="images/avatar.svg" alt="">
+                        <img width="14" src="images/down arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="py-7 px-[50px]">
+                    <h1 class="mb-1 font-semibold text-2xl">Getting Started</h1>
+                    <img width="100" src="images/line.svg" alt="">
+                    <div class="flex gap-10 py-5">
+                        <div class="bg-[#191e1d] p-6 rounded-xl w-[500px] min-h-[500px]">
+                            <h2 class="text-2xl font-semibold mb-2">Welcome To Secure <span
+                                    class="text-blue-500 font-semibold">Eyes.io</span>👋 </h2>
+                            <span class="bg-blue-950 px-3 text-blue-300  text-xs rounded-md p-1">Take 7
+                                minutes</span>
+                            <p class="text-sm mt-6">This short guide will help you get set up as quickly as
+                                possible so you <br> can get the most
+                                out of your trial.</p>
+
+                            <p class="mt-5 text-sm">Before we get started, we recommend adding a colleague to the team.
+                                Why?
+                            </p>
+                            <ul class="ml-10 text-sm">
+                                <li class="list-disc">
+                                    It's free
+                                </li>
+                                <li class="list-disc">
+                                    You'll both get updates on your security status
+                                </li>
+                                <li class="list-disc">
+                                    They can help with any additional set up.
+                                </li>
+                            </ul>
+                            <div class="bg-[#212520] mt-5 rounded-xl p-5 flex items-center gap-3 ">
+                                <div class="h-[70px] rounded-full w-[10px] bg-yellow-600"></div>
+                                <img width="20" src="images/orange issue.svg" alt="">
+                                <div>
+                                    <h2>Concerned about adding another Admin?</h2>
+                                    <p class="py-1 text-sm font-light opacity-[0.7]">You can always add them as a
+                                        Read-only user if
+                                        they
+                                        don't
+                                        need
+                                        to
+                                        interact with the
+                                        platform regularly</p>
+                                </div>
+                            </div>
+                            <div class="mt-5 flex items-center gap-5">
+                                <button class="flex bg-blue-500 py-3 px-5 rounded-md items-center gap-2 text-sm"><img
+                                        width="15" src="images/invite user.svg" alt="">Invite
+                                    a Colleage</button>
+                                <button
+                                    class="flex border-[#3b81f4] border-[1px] py-3 px-5 rounded-md items-center gap-2 text-blue-400 text-sm">Not
+                                    Right Now</button>
+
+                            </div>
+                            <div class="bg-[#2e3837] p-5 rounded-xl mt-5">
+                                <h2 class="text-md mb-2 font-semibold ">Useful Links</h2>
+                                <a href="" class="flex items-center gap-2  text-sm text-blue-500"><img width="15"
+                                        src="images/links.svg" alt="">
+                                    Getting Started</a>
+                                <a href="" class="flex items-center gap-2 mt-2 text-sm text-blue-500"><img width="15"
+                                        src="images/links.svg" alt=""> Adding
+                                    additional
+                                    users to
+                                    your
+                                    account</a>
+                            </div>
+                        </div>
+                        <div class="bg-[#191e1d]  flex items-center p-8 flex-col rounded-xl w-[300px] h-[max-content]">
+                            <img width="150" src="images/logo.png" alt="">
+                            <h2 class="text-xl mt-5 font-semibold">Getting started</h2>
+                            <div class="flex flex-col justify-start">
+                                <div class="flex items-center gap-3 mt-5">
+                                    <img width="20" src="images/steps.svg" alt="">
+                                    Welcome to Secure<span class="text-blue-500 font-semibold ml-[-7px]">Eyes.io</span>
+                                </div>
+                                <div class="w-[3px] bg-blue-500 h-[30px] ml-2 rounded-full"></div>
+                                <div class="flex items-center gap-3 ">
+                                    <img width="20" src="images/steps.svg" alt="">
+                                    Adding Targets
+                                </div>
+                                <div class="w-[3px] bg-blue-500 h-[30px] ml-2 rounded-full"></div>
+                                <div class="flex items-center  gap-3 ">
+                                    <img width="20" src="images/D steps.svg" alt="">
+                                    <h2 class="opacity-[0.5]">Start your first scan</h2>
+                                </div>
+                            </div>
+                            <button class="flex items-start gap-3 mt-8 text-sm bg-[#153f47] py-5 px-10 rounded-xl"><img
+                                    width="20" src="images/stars.svg" alt="">Make it
+                                effortless</button>
+                            <button class="flex items-start gap-3 mt-3 text-sm bg-[#2a393b] py-5 px-5 rounded-xl"><img
+                                    width="20" src="images/stars.svg" alt="">Understand your results</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

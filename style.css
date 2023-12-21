@@ -1,0 +1,19 @@
+.icon-box {
+    width: 70px;
+    height: 50px;
+    padding: 10px 25px !important;
+}
+
+.Drawer {
+    transition: all 0.5s ease-in-out;
+}
+
+.tran {
+    transition: all 0.3s ease-in-out;
+
+}
+
+.account-box {
+    height: 0;
+    transition: 0.8s;
+}

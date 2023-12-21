@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Eyes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="relative p-10 bg-[#080e0f] h-screen flex justify-evenly text-white">
+            <div
+                class=" pointer-events-none	 blur-2xl w-[250px] h-[250px] absolute opacity-[0.3] top-10 right-10 rounded-full bg-[#295066]">
+            </div>
+            <div
+                class=" pointer-events-none	 blur-2xl w-[250px] h-[250px] absolute opacity-[0.3] top-[300px] right-[500px] rounded-full bg-[#295066]">
+            </div>
+            <img width="110" class="absolute top-0 right-0 m-8" src="images/logo.png" alt="">
+            <div class="pt-10  pb-5 px-[90px] rounded-[15px] bg-[#131e21] flex items-center flex-col justify-center">
+                <h1 class="text-3xl font-regular">Where Trust Meets <span
+                        class="font-semibold text-blue-500 ">Technology</span></h1>
+                <p class="text-sm font-thin mt-3">Empowering Businesses with Cutting-Edge Cybersecurity Solutions for a
+                    <br>
+                    Safer
+                    Digital
+                    Future.
+                </p>
+                <img width="350" src="images/login & register.png" alt="">
+            </div>
+            <div class=" w-[50%] flex flex-col  items-center justify-center">
+                <h2 class="text-2xl mb-5 mt-5">Login to <span class="text-blue-500 font-semibold">SecureEyes.io</span>
+                </h2>
+                <form class="flex flex-col justify-center items-left" action="login">
+                    <label class="opacity-[0.9] font-[200]" for="email">Email</label>
+                    <input class="  border-[gray] w-[400px] border-[1px] py-3 px-4 my-3 bg-transparent rounded-[15px] "
+                        type="email" placeholder="Enter Email">
+                    <label class="opacity-[0.9] font-[200]" for="password">Password</label>
+                    <input class="  border-[gray] w-[400px] border-[1px] py-3 px-4 my-3 bg-transparent rounded-[15px] "
+                        type="password" placeholder="Enter Password">
+                    <a href="" class="text-blue-500 text-sm ">Forget Password?</a>
+                    <a href="dashboard.html"
+                        class=" w-[400px] py-3 px-4 my-3 text-center rounded-[15px] bg-blue-600 text-white ">Login</a>
+                    <div class="text-[gray] my-1 flex items-center gap-1 justify-center">
+                        <h3>──────</h3>
+                        <p> or </p>
+                        <h3>──────</h3>
+
+                    </div>
+
+                    <button
+                        class=" border-[1px] border-[gray] my-3 rounded-[15px] gap-2 flex items-center text-sm justify-center py-[10px]"><img
+                            width=" 25" src="images/google icon.png" alt="">
+                        Login With Google
+                    </button>
+                    <p class="text-xs mt-6 text-center">Don't have an account? <a href="register.html"
+                            class="text-blue-500 font-semibold">Create a
+                            new account</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

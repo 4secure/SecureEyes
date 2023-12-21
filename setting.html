@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Eyes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="relative bg-[#080e0f] flex justify-center min-h-screen h-[100%] text-white">
+            <div class="gradient wraper">
+                <div
+                    class=" pointer-events-none	 blur-2xl w-[300px] h-[300px] absolute opacity-[0.1] top-10 right-10 rounded-full bg-[#295066]">
+                </div>
+                <div
+                    class=" pointer-events-none	 blur-2xl w-[500px] h-[500px] absolute opacity-[0.1] top-[100px] left-[100px] rounded-full bg-[#295066]">
+                </div>
+            </div>
+            <div
+                class="Drawer transition-[1s] relative bg-[#191e1d] w-72 flex flex-col items-center p-5 gap-2   min-h-[800px]">
+                <img id="openImg" class="mb-5 mt-1" width="120" src="images/logo.png" alt="">
+                <img id="closeImg" class=" hidden mb-5 mt-1" width="50" src="images/logo icon.png" alt="">
+                <a id="linkBox" href=""
+                    class="tran py-3 px-8 text-left flex items-center gap-2 rounded-xl bg-blue-600 ">
+                    <img src="images/stars.svg" alt="">
+                    <h2 class="link">Geting Started</h2>
+                </a>
+                <div class="linkAll flex flex-col gap-1 items-start opacity-[0.8] mt-3">
+                    <a href="/dashboard.html" class="ml-[-25px] flex gap-4  items-end leading-none my-3"><img width="25"
+                            src="images/dashboard.svg" alt="">
+                        <h2 class="link">Dashboard</h2>
+                    </a>
+                    <a href="" class="ml-[-25px] flex gap-4  items-end leading-none my-3"><img width="25"
+                            src="images/target.svg" alt="">
+                        <h2 class="link">Target</h2>
+                    </a>
+                    <a href="" class="ml-[-25px] flex gap-4  items-end leading-none my-3"><img width="25"
+                            src="images/scan.svg" alt="">
+                        <h2 class="link">Scans</h2>
+                    </a>
+                    <a href="" class="ml-[-25px] flex gap-4  items-end leading-none my-3"><img width="25"
+                            src="images/scan.svg" alt="">
+                        <h2 class="link">Reports</h2>
+                    </a>
+                    <a href="" class="ml-[-25px] flex gap-4   items-end leading-none my-3"><img width="25"
+                            src="images/reports.svg" alt="">
+                        <h2 class="link">Network</h2>
+                    </a>
+                    <a href="integrations.html" class="ml-[-25px] flex gap-4  items-end leading-none my-3"><img
+                            width="25" src="images/integration.svg" alt="">
+                        <h2 class="link">
+                            Integration
+                        </h2>
+                    </a>
+                    <div>
+                        <a class="ml-[-25px] flex gap-4  items-end leading-none my-3"><img width="25"
+                                src="images/acount.svg" alt="">
+                            <h2 class="link">Account</h2>
+                            <img width="10" class="link arrow cursor-pointer" src="images/arrow down.svg" alt="">
+                        </a>
+                        <div class="link ml-[-12px] mt-2  account-box overflow-hidden	">
+                            <a href="" class="flex  mt-3 iterms-center gap-3">
+                                <img src="images/settings.svg" width="18" alt="">
+                                <h2 class="link font-light text-md">Settings</h2>
+                            </a>
+                            <a href="" class="flex mt-3 iterms-center gap-3">
+                                <img src="images/cash.svg" width="18" alt="">
+                                <h2 class="link font-light text-md">Billings</h2>
+                            </a>
+                            <a href="" class="flex mt-3 iterms-center gap-3">
+                                <img src="images/status.svg" width="18" alt="">
+                                <h2 class="link font-light text-md">System Status</h2>
+                            </a>
+                            <a href="" class="flex mt-3 iterms-center gap-3">
+                                <img src="images/help center.svg" width="18" alt="">
+                                <h2 class="link font-light text-md">Help Center</h2>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <a id="linkBox" class="flex items-center gap-3 bg-[#2b3130] py-3 rounded-xl px-14 absolute bottom-6"
+                    href="index.html"><img src="images/logout-1 1.svg" alt="">
+                    <h2 class="link">Log Out</h2>
+                </a>
+            </div>
+            <div class="main-box w-full h-full">
+                <div class="bg-[#191e1d] flex items-center justify-between p-10  gap-3 w-full h-[70px]">
+                    <div class="flex gap-5">
+                        <img id="drawer-btn" class=" cursor-pointer" width="15" src="images/back arrow.svg" alt="">
+                        <h2 class="font-semibold">Welcome Back, John Doe</h2>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <img width="18" src="images/search.svg" alt="">
+                        <img width="18" src="images/bell.svg" alt="">
+                        <h1 class="opacity-[0.4] text-2xl font-thin">|</h1>
+                        <img width="30" src="images/avatar.svg" alt="">
+                        <img width="14" src="images/down arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="center-box py-7 px-[50px]">
+                    <div class="flex items-center gap-2">
+                        <div class="w-[5px] rounded-full h-[45px] bg-blue-500"></div>
+                        <div>
+                            <h1 class="mb-1 font-semibold leading-none text-2xl">Setting</h1>
+                            <p class="text-sm opacity-[0.7] leading-none font-thin">Change your Settings</p>
+                        </div>
+                    </div>
+                    <div class="py-8 flex flex-col gap-5 flex-wrap">
+                        <div class="flex items-center gap-10">
+                            <button
+                                class="flex items-center focus:bg-[#0b3744] py-2 px-4 rounded-md font-light transition-[0.8s]  gap-2">
+                                <img src="images/team.svg" alt="">
+                                Team
+                            </button>
+                            <button
+                                class="flex py-2 px-4 items-center focus:bg-[#0b3744] rounded-md transition-[0.8s]  font-light gap-2">
+                                <img width="18" src="images/acount.svg" alt="">
+                                My Account
+                            </button>
+                            <button
+                                class="flex py-2 px-4 items-center focus:bg-[#0b3744] rounded-md transition-[0.8s]  font-light gap-2">
+                                <img width="20" src="images/scan.svg" alt="">
+                                Scan
+                            </button>
+                            <button
+                                class="flex py-2 px-4 items-center focus:bg-[#0b3744] rounded-md transition-[0.8s]  font-light gap-2">
+                                <img width="20" class="opacity-[0.6]" src="images/mail.svg" alt="">
+                                Email Notifications
+                            </button>
+                            <button
+                                class="flex py-2 px-4 items-center focus:bg-[#0b3744] rounded-md transition-[0.8s]  font-light gap-2">
+                                <img width="20" src="images/cash.svg" alt="">
+                                Billing
+                            </button>
+                        </div>
+                        <button
+                            class="AddUserBtn ml-auto flex items-center gap-3 focus:bg-[#0b3744] rounded-md transition-[0.8s]  bg-blue-500 py-3 px-4 rounded-md"><img
+                                width="20" src="images/add acount.svg" alt=""> Add
+                            Account</button>
+                        <div
+                            class=" flex flex-col overflow-hidden p-5 items-center gap-2 bg-[#151e20] w-full  rounded-xl">
+                            <div class="flex py-3 px-3 items-center rounded-lg gap-20 w-full bg-[#0a3543]">
+                                <h3 class="text-[#12c0e7]">S.No</h3>
+                                <h3 class="text-[#12c0e7]">Name</h3>
+                                <h3 class="text-[#12c0e7]">E-mail</h3>
+                                <h3 class="text-[#12c0e7]">Last-sign In</h3>
+                                <h3 class="text-[#12c0e7]">Status</h3>
+                                <h3 class="text-[#12c0e7]">2FAa</h3>
+                                <h3 class="text-[#12c0e7]">SSO</h3>
+                                <h3 class="text-[#12c0e7]">Role</h3>
+                            </div>
+                            <div class="flex py-3 px-3 items-center rounded-lg gap-11 w-full ">
+                                <h3 class="opacity-[0.9]">1</h3>
+                                <h3 class="opacity-[0.7]">John Doe</h3>
+                                <h3 class="opacity-[0.7]">abc@email.com</h3>
+                                <h3 class="opacity-[0.7]">20th Nov 2023 , 11:53 am</h3>
+                                <h3 class="opacity-[0.7]">Active</h3>
+                                <h3 class="opacity-[0.7]">Not Enabled</h3>
+                                <h3 class="opacity-[0.7]">Not Enabled</h3>
+                                <h3 class="opacity-[0.7]">Admin</h3>
+                            </div>
+                            <div class="flex py-3 px-3 items-center rounded-lg gap-11 w-full ">
+                                <h3 class="opacity-[0.9]">2</h3>
+                                <h3 class="opacity-[0.7]">John Doe</h3>
+                                <h3 class="opacity-[0.7]">abc@email.com</h3>
+                                <h3 class="opacity-[0.7]">20th Nov 2023 , 11:53 am</h3>
+                                <h3 class="opacity-[0.7]">Active</h3>
+                                <h3 class="opacity-[0.7]">Not Enabled</h3>
+                                <h3 class="opacity-[0.7]">Not Enabled</h3>
+                                <h3 class="opacity-[0.7]">Admin</h3>
+                            </div>
+                            <div class="flex py-3 px-3 items-center rounded-lg gap-11 w-full ">
+                                <h3 class="opacity-[0.9]">3</h3>
+                                <h3 class="opacity-[0.7]">John Doe</h3>
+                                <h3 class="opacity-[0.7]">abc@email.com</h3>
+                                <h3 class="opacity-[0.7]">20th Nov 2023 , 11:53 am</h3>
+                                <h3 class="opacity-[0.7]">Active</h3>
+                                <h3 class="opacity-[0.7]">Not Enabled</h3>
+                                <h3 class="opacity-[0.7]">Not Enabled</h3>
+                                <h3 class="opacity-[0.7]">Admin</h3>
+                            </div>
+                            <div class="flex py-3 px-3 items-center rounded-lg gap-11 w-full ">
+                                <h3 class="opacity-[0.9]">4</h3>
+                                <h3 class="opacity-[0.7]">John Doe</h3>
+                                <h3 class="opacity-[0.7]">abc@email.com</h3>
+                                <h3 class="opacity-[0.7]">20th Nov 2023 , 11:53 am</h3>
+                                <h3 class="opacity-[0.7]">Active</h3>
+                                <h3 class="opacity-[0.7]">Not Enabled</h3>
+                                <h3 class="opacity-[0.7]">Not Enabled</h3>
+                                <h3 class="opacity-[0.7]">Admin</h3>
+                            </div>
+                            <div class="flex py-3 px-3 items-center rounded-lg gap-11 w-full ">
+                                <h3 class="opacity-[0.9]">5</h3>
+                                <h3 class="opacity-[0.7]">John Doe</h3>
+                                <h3 class="opacity-[0.7]">abc@email.com</h3>
+                                <h3 class="opacity-[0.7]">20th Nov 2023 , 11:53 am</h3>
+                                <h3 class="opacity-[0.7]">Active</h3>
+                                <h3 class="opacity-[0.7]">Not Enabled</h3>
+                                <h3 class="opacity-[0.7]">Not Enabled</h3>
+                                <h3 class="opacity-[0.7]">Admin</h3>
+                            </div>
+                            <div class="flex py-3 px-3 items-center rounded-lg gap-11 w-full ">
+                                <h3 class="opacity-[0.9]">6</h3>
+                                <h3 class="opacity-[0.7]">John Doe</h3>
+                                <h3 class="opacity-[0.7]">abc@email.com</h3>
+                                <h3 class="opacity-[0.7]">20th Nov 2023 , 11:53 am</h3>
+                                <h3 class="opacity-[0.7]">Active</h3>
+                                <h3 class="opacity-[0.7]">Not Enabled</h3>
+                                <h3 class="opacity-[0.7]">Not Enabled</h3>
+                                <h3 class="opacity-[0.7]">Admin</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="adduser hidden">
+                <div
+                    class="userBlur w-full h-full blur-xl opacity-[0.5] flex items-center justify-center top-0 left-0 absolute bg-[#172327] ">
+                </div>
+                <div
+                    class="UserForm w-1/2 absolute top-[40%] left-1/2  translate-y-[-50%] translate-x-[-50%] bg-[#1d2627] rounded-3xl">
+                    <div class="flex flex-col items-start p-10 gap-3 ">
+                        <div class="flex items-center gap-3">
+                            <div class="w-[5px] h-[50px] bg-blue-500 rounded-full"></div>
+                            <img src="images/add acount.svg" alt="">
+                            <h2 class="text-2xl font-semibold">Add User</h2>
+                        </div>
+                        <form action="" class="flex mt-2 w-full flex-col items-start ">
+                            <label class="font-light leading-none ml-1" for="name">Name</label>
+                            <input type="text" placeholder="Enter Name"
+                                class="py-2 px-3 w-full bg-transparent border-gray-500 my-3 border-[1px] rounded-md">
+                            <label class="font-light leading-none ml-1" for="email">Email</label>
+                            <input type="email" placeholder="Enter Email"
+                                class="py-2 px-3 w-full bg-transparent border-gray-500 my-3 border-[1px] rounded-md">
+                            <label class="font-light leading-none ml-1" for="role">Role</label>
+                            <input type="text" placeholder="Enter Role"
+                                class="py-2 px-3 w-full bg-transparent border-gray-500 my-3 border-[1px] rounded-md">
+                            <div class="bg-[#303c3a] mt-3 rounded-lg p-5">
+                                <div class="flex items-center gap-2">
+                                    <input class="" type="checkbox">
+                                    <h3 class="text-[#15d5fe] font-semibold text-lg ">Require single-sign on (SSO)</h3>
+                                </div>
+                                <p class="leading-none font-light">User will be required to register and authenticate
+                                    using
+                                    the
+                                    selected
+                                    authentication
+                                    provider</p>
+                            </div>
+                            <div class="cancelBtn flex items-center justify-end mt-5 w-full gap-3">
+                                <button class="py-2 px-6 border-gray-500 border-[1px] rounded-lg">Cancel</button>
+                                <button class="formBtn py-2 px-6 bg-blue-600 rounded-lg">Add User</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
