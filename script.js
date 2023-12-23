@@ -11,6 +11,12 @@ var AddUser = document.querySelector('.adduser')
 var AddUserBtn = document.querySelector('.AddUserBtn')
 var cancelBtn = document.querySelector('.cancelBtn')
 var formBtn = document.querySelector('.formBtn')
+var teambtn = document.querySelector('#teambtn')
+var myaccountbtn = document.querySelector('#myaccountbtn')
+var scanbtn = document.querySelector('#scanbtn')
+var myaccountTab = document.querySelector('.myAccount')
+var TeamTab = document.querySelector('.teamBox')
+var scanTab = document.querySelector('.Scan')
 
 var openClose = true
 var Account = true
@@ -71,4 +77,18 @@ formBtn.addEventListener('click', function () {
     AddUser.classList.add('hidden')
 })
 
-
+teambtn.addEventListener('click', function () {
+    TeamTab.classList.remove('hidden');
+    myaccountTab.classList.add('hidden');
+    scanTab.classList.add('hidden');
+})
+myaccountbtn.addEventListener('click', function () {
+    TeamTab.classList.add('hidden');
+    myaccountTab.classList.remove('hidden');
+    scanTab.classList.add('hidden');
+})
+scanbtn.addEventListener('click', function () {
+    TeamTab.classList.add('hidden');
+    myaccountTab.classList.add('hidden');
+    scanTab.classList.remove('hidden');
+})

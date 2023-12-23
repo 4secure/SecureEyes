@@ -118,17 +118,17 @@
                     </div>
                     <div class="py-8 flex flex-col gap-5 flex-wrap">
                         <div class="flex items-center gap-10">
-                            <button
+                            <button id="teambtn"
                                 class="flex items-center focus:bg-[#0b3744] py-2 px-4 rounded-md font-light transition-[0.8s]  gap-2">
                                 <img src="images/team.svg" alt="">
                                 Team
                             </button>
-                            <button
+                            <button id="myaccountbtn"
                                 class="flex py-2 px-4 items-center focus:bg-[#0b3744] rounded-md transition-[0.8s]  font-light gap-2">
                                 <img width="18" src="images/acount.svg" alt="">
                                 My Account
                             </button>
-                            <button
+                            <button id="scanbtn"
                                 class="flex py-2 px-4 items-center focus:bg-[#0b3744] rounded-md transition-[0.8s]  font-light gap-2">
                                 <img width="20" src="images/scan.svg" alt="">
                                 Scan
@@ -144,9 +144,9 @@
                                 Billing
                             </button>
                         </div>
-                        <!-- <div class="teamBox">
+                        <div class="teamBox ">
                             <button
-                                class="AddUserBtn ml-auto flex items-center gap-3 focus:bg-[#0b3744] rounded-md transition-[0.8s]  bg-blue-500 py-3 px-4 rounded-md"><img
+                                class="AddUserBtn ml-auto flex items-center gap-3 mb-5 focus:bg-[#0b3744] rounded-md transition-[0.8s]  bg-blue-500 py-3 px-4 rounded-md"><img
                                     width="20" src="images/add acount.svg" alt=""> Add
                                 Account</button>
                             <div
@@ -223,10 +223,10 @@
                                 </div>
 
                             </div>
-                        </div> -->
-                        <div class="myAccount w-full flex gap-20">
+                        </div>
+                        <div class="myAccount hidden w-full flex gap-20">
                             <div class="w-[80%]">
-                                <h2 class="text-xl font-semibold">Single-Sign-On(SSO)</h2>
+                                <h2 class="text-xl font-semibold mt-3">Single-Sign-On(SSO)</h2>
                                 <div class="w-[200px] h-[4px] mt-1  rounded-full bg-blue-500"></div>
                                 <p class="text-md mt-1 font-light">SSO is currently disabled for your account.</p>
                                 <div class="flex items-center gap-3 mt-3">
@@ -317,7 +317,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="scan flex gap-5">
+                        <div class="Scan flex hidden gap-5">
                             <div class="w-[65%]  h-min overflow-hidden bg-[#121f21] rounded-3xl">
                                 <div class="w-full p-8  bg-[#1b2b30]">
                                     <h2 class="text-xl font-semibold">Scan Type</h2>
