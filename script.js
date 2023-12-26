@@ -5,6 +5,7 @@ var btn = document.querySelector('#drawer-btn')
 var openImg = document.querySelector('#openImg')
 var closeImg = document.querySelector('#closeImg')
 var linkAll = document.querySelector('.linkAll')
+var linkA = document.querySelectorAll('.linkAll a')
 var accountBox = document.querySelector('.account-box')
 var arrow = document.querySelector('.arrow')
 var AddUser = document.querySelector('.adduser')
@@ -31,12 +32,14 @@ btn.addEventListener('click', function () {
         openImg.classList.add('hidden')
         closeImg.classList.remove('hidden')
         btn.style.rotate = "180deg"
-        linkAll.style.marginLeft = "20px"
         for (let i = 0; i < link.length; i++) {
             link[i].style.display = 'none'
         }
         for (let i = 0; i < linkBox.length; i++) {
             linkBox[i].classList.add("icon-box")
+        }
+        for (let i = 0; i < linkA.length; i++) {
+            linkA[i].style.paddingLeft = '15px';
         }
         openClose = false
     } else {
@@ -44,12 +47,15 @@ btn.addEventListener('click', function () {
         btn.style.rotate = "0deg"
         openImg.classList.remove('hidden')
         closeImg.classList.add('hidden')
-        linkAll.style.marginLeft = "0px"
+
         for (let i = 0; i < link.length; i++) {
-            link[i].style.display = 'block'
+            link[i].style.display = "block"
         }
         for (let i = 0; i < linkBox.length; i++) {
             linkBox[i].classList.remove("icon-box")
+        }
+        for (let i = 0; i < linkA.length; i++) {
+            linkA[i].style.paddingLeft = '30px';
         }
         openClose = true
     }

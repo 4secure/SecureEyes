@@ -5,11 +5,12 @@
 }
 
 .Drawer {
-    transition: all 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .tran {
-    transition: all 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
+
 
 }
 
@@ -18,12 +19,31 @@
     transition: 0.8s;
 }
 
-a {
-    transition: all 0.5s ease-in-out;
+.linkAll a {
+    transition: 1s ease-in-out !;
+    width: 100%;
+    padding: 0px;
+    width: 100%;
+    padding-left: 30px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 0px !important;
+    align-items: center !important;
+    justify-content: start;
 }
 
-a:hover,
-a:focus {
-    color: #15d5fe;
+.link {
+    transition: 0.5s ease-in-out;
+}
 
+.linkAll {
+
+    width: 100%;
+    margin-left: 0 !important;
+}
+
+.linkAll a:hover,
+.linkAll a:focus {
+
+    background-color: #2563eb;
 }
